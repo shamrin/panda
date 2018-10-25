@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 4em;
+}
+
+.white {
+    background: white;
+    padding-top: 4em;
+}
+
+iframe {
+    width: 100vw;
+    height: 90vh;
+    border: none;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-family: "Open Sans", Roboto, Arial;
+    max-width: 60vw;
+    text-align: center;
+    font-size: 1.5em;
+}
+.white p {
+    color: black;
+}
