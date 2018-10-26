@@ -4,6 +4,16 @@
 <head>
     <link rel="stylesheet" href="./style.css" />
     <title>Panda</title>
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="./gallery/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="./gallery/default-skin/default-skin.css">
+
+
 </head>
 
 <body>
@@ -25,9 +35,49 @@
             #pandastoo
         </p>
     </div>
-    <div id="#gallery" class="container white">
-        <iframe src="https://www.katsomo.fi/sarja/pandat-33001002008/panda-247-seuraa-lumin-ja-pyryn-elamaa-vuorokauden-ympari-901792" />
+
+
+
+
+
+
+
+
+
+    <div id="gallery" class="container white">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="https://images.unsplash.com/photo-1528359645462-5ff224bf906e?ixlib=rb-0.3.5&s=6799c0c8982f971619033bc3a17cf61e&auto=format&fit=crop&w=2251&q=80" itemprop="contentUrl" data-size="600x400">
+                    <img src="https://images.unsplash.com/photo-1528359645462-5ff224bf906e?ixlib=rb-0.3.5&s=6799c0c8982f971619033bc3a17cf61e&auto=format&fit=crop&w=2251&q=80" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Panda 1</figcaption>
+            </figure>
+        
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="https://images.unsplash.com/photo-1526716121440-dc3b4f254a0a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1618bd46439c79aea44b2c63a1adc581&auto=format&fit=crop&w=1300&q=80" itemprop="contentUrl" data-size="600x400">
+                    <img src="https://images.unsplash.com/photo-1526716121440-dc3b4f254a0a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1618bd46439c79aea44b2c63a1adc581&auto=format&fit=crop&w=1300&q=80" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Panda 2</figcaption>
+            </figure>
+        
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="https://images.unsplash.com/photo-1525382455947-f319bc05fb35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c69b7bad72e5863bf7c547c7bbe90b0a&auto=format&fit=crop&w=1414&q=80" itemprop="contentUrl" data-size="600x400">
+                    <img src="https://images.unsplash.com/photo-1525382455947-f319bc05fb35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c69b7bad72e5863bf7c547c7bbe90b0a&auto=format&fit=crop&w=1414&q=80" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Panda 1</figcaption>
+            </figure>
+        
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a href="https://images.unsplash.com/photo-1521298355169-e5c635852ebb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a1faae17dde4fca4c22e095544beb18&auto=format&fit=crop&w=2160&q=80" itemprop="contentUrl" data-size="600x400">
+                    <img src="https://images.unsplash.com/photo-1521298355169-e5c635852ebb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a1faae17dde4fca4c22e095544beb18&auto=format&fit=crop&w=2160&q=80" itemprop="thumbnail" alt="Image description" />
+                </a>
+                <figcaption itemprop="caption description">Panda 2</figcaption>
+            </figure>
+        </div>
     </div>
+
+
 </body>
 
 </html>
